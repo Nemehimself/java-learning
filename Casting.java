@@ -8,8 +8,13 @@ public class Casting {
         float f = 7.5f;
         int t = (int) f; //it will remove the decimal
 
+        byte x = 30;
+        byte y = 10;
+        int z = x * y; //type promotion
+
         System.out.println(a);
         System.out.println(k);
         System.out.println(t);
+        System.out.println(z);
     }
 }
