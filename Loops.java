@@ -7,7 +7,7 @@ public class Loops {
         while(i<=4) 
             {
             System.out.println("Hi " + i);
-
+        //nested while loop
             int j = 1;
             while (j<=3) {
                 System.out.println("Hello " + j);
@@ -16,5 +16,10 @@ public class Loops {
             i++;
         }
         System.out.println( "Bye " + i);
+
+        //for loop
+
+        for(int k = 1; k <= 4; k++)
+            System.out.println("Thanks " + k);
     }
 }
