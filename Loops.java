@@ -19,7 +19,12 @@ public class Loops {
 
         //for loop
 
-        for(int k = 1; k <= 4; k++)
-            System.out.println("Thanks " + k);
+        for(int k = 1; k <= 5; k++)
+        {   //nested for loop
+            System.out.println("Day " + k);
+
+            for(int n = 1; n <= 9; n++)
+                System.out.println("    " + (n+8) + " - "+ (n+9));
+        }
     }
 }
