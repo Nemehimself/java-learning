@@ -2,6 +2,7 @@ public class Loops {
     public static void main(String[] args) {
         //Loops - while, For, Do while
 
+        //while loop
         int i = 1;
         
         while(i<=4) 
