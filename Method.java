@@ -2,6 +2,8 @@ public class Method {
     public static void main(String[] args) {
         Computer obj = new Computer();
         obj.playMusic();
+        String str = obj.pauseMusic(1);
+        System.out.println(str);
     }
 }
 
@@ -12,6 +14,9 @@ public class Method {
     }
 
     public String pauseMusic(int press){
-        return "Pause";
+        if (press >= 10)
+            return "Pause";
+        else
+            return "nothing ...";
     }
 }
