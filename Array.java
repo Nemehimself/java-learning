@@ -7,5 +7,19 @@ public class Array {
         for(int i=0; i<4; i++){
             System.out.println(nums[i]);
         }
+        System.out.println();
+
+        //multi-dimensional array
+        int multi [][] = new int[3][4];
+
+        for (int k=0; k<3; k++){
+            for (int j=0; j<4; j++){
+
+                multi[k][j] = (int)(Math.random() * 10);
+                System.out.print(multi[k][j] + " ");
+            }
+            System.out.println();
+        }
+
     }
 }
