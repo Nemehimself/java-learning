@@ -20,6 +20,18 @@ public class Array {
             }
             System.out.println();
         }
+         System.out.println();
+
+        //length in array
+        int num [] = new int [7];
+        num[0] = (int)(Math.random() * 10);
+        num[1] = (int)(Math.random() * 10);
+        num[2] = (int)(Math.random() * 10);
+        num[3] = (int)(Math.random() * 10);
+
+        for(int n=0; n<num.length; n++){
+            System.out.println(num[n]);
+        }
 
     }
 }
