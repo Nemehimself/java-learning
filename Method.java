@@ -1,8 +1,8 @@
 public class Method {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Computer obj = new Computer();
         obj.playMusic();
-        String str = obj.pauseMusic(1);
+        Strings str = obj.pauseMusic(1);
         System.out.println(str);
     }
 }
@@ -13,7 +13,7 @@ public class Method {
         System.out.println("Play...");
     }
 
-    public String pauseMusic(int press){
+    public Strings pauseMusic(int press){
         if (press >= 10)
             return "Pause";
         else

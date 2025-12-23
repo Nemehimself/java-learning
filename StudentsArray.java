@@ -1,5 +1,5 @@
 public class StudentsArray {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         Student s1 = new Student();
         s1.id = 1;
         s1.name = "Val";

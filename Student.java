@@ -2,7 +2,7 @@
 public class Student {
 
     public int id;
-    public String name;
+    public Strings name;
     public int grade;
 
 }

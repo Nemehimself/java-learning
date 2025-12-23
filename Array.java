@@ -1,5 +1,5 @@
 public class Array {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         int nums [] = {3, 7, 2, 4};
 
         System.out.println(nums[1]);

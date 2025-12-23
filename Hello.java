@@ -1,11 +1,11 @@
 public class Hello {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         //variables
         int num1 = 5;
         int num2 = 5;
         int result = num1 + num2;
 
-        String greet = "Hello World!";
+        Strings greet = "Hello World!";
         double  PI = 3.127;
         boolean inActive = true;
         float half = 0.5f;

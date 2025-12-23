@@ -1,5 +1,5 @@
 public class Calculator {
-    public static void main(String[] args) {
+    public static void main(Strings[] args) {
         addition objAddition = new addition();
             int result = objAddition.add(2, 3, 5);
             double result1 = objAddition.add(2.5, 3, 5);
